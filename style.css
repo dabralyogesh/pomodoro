@@ -1,0 +1,63 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+.bgdiv {
+    background-image: url("./images/backgroundImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+}
+.contentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.pomodiv {
+    width: 60%;
+    -webkit-box-shadow: 11px 9px 50px -11px rgba(141,145,127,0.99);
+    -moz-box-shadow: 11px 9px 50px -11px rgba(141,145,127,0.99);
+    box-shadow: 11px 9px 50px -11px rgba(141,145,127,0.99);
+    border-radius: 8px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chips{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    flex-wrap: wrap;
+    width:80%;
+}
+.topbutton{
+    border: 1px solid #f5f0f0;
+    height: 2.6rem;
+    width: 6rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 19px -12px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 10px 10px 19px -12px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 19px -12px rgba(0,0,0,0.59);
+}
+.countdown {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15vw;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  font-family: arial, sans-serif;
+}
+
+.controls {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
